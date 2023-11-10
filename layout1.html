@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>layout1</title>
+        <meta charset="utf-8" />
+        <style>
+            #wrap ul{}
+            header ul{}
+            #wrap>header>ul{}
+            header ul{
+                list-style: none;
+                display: flex;
+            }
+            header li{
+                padding: 0px 10px;
+                border-right: solid 1px gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                <h1><img src="logo.png"/></h1>
+                <ul>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>WORKS</li>
+                    <li>BLOG</li>
+                    <li>CONTACT US</li>
+                </ul>
+                <img src="zoom.png" />
+            </header>
+            <nav>nav</nav>
+            <div id="content">content</div>
+            <footer>footer</footer>
+        </div>
+    </body>
+</html>
