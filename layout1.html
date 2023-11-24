@@ -10,17 +10,55 @@
             header ul{
                 list-style: none;
                 display: flex;
+                margin: 13px 0px;
             }
             header li{
                 padding: 0px 10px;
                 border-right: solid 1px gray;
+            }
+            header li:last-child{
+                border: none;
+            }
+            header{
+                display:flex;
+            }
+            header h1{
+                margin: 0px;
+            }
+            header>div>img{
+                margin: 10px 0px;
+            }
+            nav ul{
+                list-style: none;
+                display: flex;
+            }
+            nav li{
+                padding: 0px 10px;
+            }
+            nav{
+                display: flex;
+                justify-content: space-between;
+                background-color: lightgray;
+            }
+            nav h2{
+                margin: 14px 0px;
+            }
+            #content>section:nth-child(1){ background-color: #98f; }
+            #content>section:nth-child(2){ background-color: #5d9; }
+            #content>section:nth-child(3){ background-color: #f76; }
+            #content>section:nth-child(4){ background-color: #ec5; }
+            #content>section>div{
+                display: flex;
+            }
+            #content>section>div>div{
+                margin: 0px 10px;
             }
         </style>
     </head>
     <body>
         <div id="wrap">
             <header>
-                <h1><img src="logo.png"/></h1>
+                <h1><img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/zoom.png"/></h1>
                 <ul>
                     <li>ABOUT</li>
                     <li>SERVICES</li>
@@ -28,10 +66,46 @@
                     <li>BLOG</li>
                     <li>CONTACT US</li>
                 </ul>
-                <img src="zoom.png" />
+                <div><img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img1.png" /></div>
             </header>
-            <nav>nav</nav>
-            <div id="content">content</div>
+            <nav>
+                <h2>See Our WORKS</h2>
+                <ul>
+                    <li>web design</li>
+                    <li>icons</li>
+                    <li>web design</li>
+                    <li>web design</li>
+                </ul>
+                <div></div>
+            </nav>
+            <div id="content">
+                <section>
+                    <h3>web design</h3>
+                    <div>
+                        <div>
+                            <img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img2.png">
+                        </div>
+                        <div>
+                            <img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img3.png">
+                        </div>
+                        <div>
+                            <img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img4.png">
+                        </div>
+                        <div>
+                            <img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img5.png">
+                        </div>
+                        <div>
+                            <img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img6.png">
+                        </div>
+                        <div>
+                            <img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img7.png">
+                        </div>
+                        <div>
+                            <img src="/Users/bagseung-won/Library/CloudStorage/OneDrive-계원예술대학교/web/img8.png">
+                        </div>
+                    </div>
+                </section>
+            </div>
             <footer>footer</footer>
         </div>
     </body>

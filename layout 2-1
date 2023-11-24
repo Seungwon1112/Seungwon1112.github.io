@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <title>layout2</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(10, 202, 125);
+            color: white;
+        }
+        header{
+            list-style: none;
+            display: flex;
+        }
+        header li{
+            padding: 0px 10px;
+        }
+        header h1{
+            margin: 4px 0px;
+        }
+        header h1 span{
+            color: rgb(211, 211, 0);
+        }
+        #main_visual{
+            background-image: url("imgs/main_visual.png");
+            padding: 100px;
+            color: white;
+            text-align: center;
+            background-size: 100px auto;
+            background-repeat: no-repeat;
+            background-color: black;
+            background-position: 50% 50%;
+            background-size: contain;
+            background-size: cover;
+        }
+        #main_visual h2{
+            font-size: 40px;
+            letter-spacing: 20px;
+            margin: 0px;
+        }
+        #main_visual p{
+            margin: 0px;
+        }
+        .button {
+            background-color: rgb(173, 173, 0);
+            display:inline-block;
+            padding: 5px 30px;
+            color:black;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1>MY <span>FOLIO </span></h1>
+              <ul>
+                 <li>HOME</li>
+                 <li>ABOUT</li>
+                 <li>SERVICE</li>
+                 <li>BLOG</li>
+                 <li>CONTACT US</li>
+              </ul>
+        </header>
+        <div id="main_visual">
+            <p>aBdasda</p>
+            <p>incididunt bore</p>
+            <p>OREM DASdasd</p>
+            <div class="button">KNOW MORE</div>
+        </div>
+        <section>
+            <h3>ABOUT ME</h3>
+            <p>
+                abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg
+                abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg
+                abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg abcdefg
+            </p>
+            <ul>
+                <li>
+                    <img class="icon" src="/kaywon/sub/img/layout_jpg/layout2_icon1.jpg" />
+                    <dl>
+                        <dt>Title goes here</dt>
+                        <dd>
+                            onsectetur adipisicing elit, sedo eiusmod tempor 
+                            incidi et dolorerserss eerhfre mag.
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </section>
+        <section>content2</section>
+    </div>
+</body>
+</html>
