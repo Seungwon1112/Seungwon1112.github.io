@@ -3,6 +3,12 @@
     <head>
         <title>layout3</title>
         <meta charset="utf-8"/>
+        <style>
+            header ul{
+                list-style: none;
+                display: flex;
+            }
+        </style>
     </head>
     <body>
         <div id="wrap">
